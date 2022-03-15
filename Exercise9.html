@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="author" content="Ronjay Acorda" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Registration Form Ronjay Acorda</title>
+    </head>
+    <body style="font-family: tahoma; color: white;">
+        <blockquote style="background-color: gray;">
+            <h2 style="text-align: center;">Registration Form</h2>
+            <p>Fields marked(*) are required.</p>
+            <form>
+                <fieldset>
+                    <legend>Your Details</legend>
+                    <label style="display: inline-block; width: 80px;" for="name">Name *</label>
+                    <input type="text" id="name" name="name" placeholder="Full Name" required><br>
+                    <label style="display: inline-block; width: 80px;" for="birthday">Birthday *</label>
+                    <input type="date" id="birthday" name="birthday" min="1960-01-01" required><br>
+                    <label style="display: inline-block; width: 80px;" for="email">Email *</label>
+                    <input type="emai" id="email" name="email" placeholder="e.g. user@example.com"required><br>
+                    <label style="display: inline-block; width: 80px;" for="phone">Phone *</label>
+                    <input type="text" id="phone" name="phone" placeholder="09xx-xxx-xxxx" maxlength="11"required>
+                </fieldset>
+                <fieldset>
+                    <legend>Delivery Address</legend>
+                    <label style="display: inline-block; width: 80px;"for="address1">Address 1 *</label>
+                    <input type="text" id="address1" name="address1" placeholder="House/Apt #, Street" required><br>
+                    <label style="display: inline-block; width: 80px;"for="baranggay">Barangay *</label>
+                    <input type="text" id="baranggay" name="baranggay" placeholder="District/Baranggay" required><br>
+                    <label style="display: inline-block; width: 80px;"for="city">City *</label>
+                    <input list="city" required>
+                        <datalist id="city">
+                            <option value="Angeles"></option>
+                            <option value="Cabatuan"></option>
+                        </datalist><br>
+                    <label style="display: inline-block; width: 80px;"for="postal">Postal Code *</label>
+                    <input type="text" id="postal" name="postal" placeholder="xxxx" maxlength="4" required><br>
+                    <label style="display: inline-block; width: 80px;"for="province">Province *</label>
+                    <input list="province" required>
+                        <datalist id="province">
+                            <option value="Albay"></option>
+                            <option value="Isabela"></option>
+                        </datalist><br>
+                </fieldset>
+                <fieldset>
+                    <legend>Membership Information</legend>
+                    <label style="display: inline-block; width: 80px;"for="username">Username *</label>
+                    <input type="text" id="username" name="username" placeholder="Atleast 5 character" required><br>
+                    <label style="display: inline-block; width: 80px;"for="password">Password *</label>
+                    <input type="password" name="password" id="password" placeholder="Atleast 8 character" required><br>
+                    <label style="display: inline-block; width: 80px;"for="magazinesub">Magazine <br>Subscription</label><br>
+                    <label style="display: inline-block; width: 80px;" for="pcm"></label>
+                    <input type="checkbox" name="pcm" value="p"> PC Magazine <br>
+                    <label style="display: inline-block; width: 80px;" for="w"></label>
+                    <input type="checkbox" name="wired" value="w"> Wired <br>
+                    <label style="display: inline-block; width: 80px;" for="wc"></label>
+                    <input type="checkbox" name="cw" value="c"> Computer World <br>
+                    <label style="display: inline-block; width: 80px;" for="o"></label>
+                    <input type="checkbox" name="other" value="o"> Other
+                </fieldset>
+                <input type="submit" value="Sign up">
+                <input type="reset">
+            </form>
+        </blockquote>
+    </body>
+</html>
