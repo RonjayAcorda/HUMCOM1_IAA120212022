@@ -1,0 +1,62 @@
+body{
+    background-color: white;
+    border: 1px solid black;
+    margin: 10%;
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: smaller;
+    padding: 10px;
+    
+}
+header,nav,footer,article,p,aside{
+    border: 1px solid black;
+    margin: 5px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 3px;
+    overflow: auto;
+}
+section{
+    border: 1px solid black;
+    margin: 5px;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    margin-top: 1px;
+}
+/*Left Section*/
+.navpadding{
+    padding: 50px;
+    padding-top: 148px;
+    padding-bottom: 148px;
+    overflow: auto;
+}
+
+/*Right Section*/
+.inline{
+    display: inline-block;
+}
+.paragraphpadd{
+    padding: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    overflow: auto;
+}
+.asidepadd{
+    padding: 20px;
+}
+
+/*Color Section*/
+.dark{
+    background-color: rgb(142, 142, 142);
+}
+.mid{
+    background-color: rgb(171, 171, 171);
+}
+.light{
+    background-color: rgb(202, 202, 202);
+}
+.lighter{
+    background-color: rgb(229, 229, 229);
+}
