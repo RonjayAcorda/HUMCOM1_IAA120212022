@@ -162,12 +162,3 @@ button:hover{
     left: 500px;
 }
 
-
-.footer{
-    background-color: rgba(233, 184, 138, 0.693);
-    border: 2px solid black;
-}
-h5{
-    padding: 20px;
-    text-align: center;
-}
