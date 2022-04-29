@@ -1,0 +1,139 @@
+@media only screen and (min-width: 1366px){
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+*{
+    margin: 0%;
+    color: black;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background: white;
+}
+hr{
+    border: 1px solid black;
+}
+.container{
+    min-height: 100vh;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to right, rgba(121, 121, 255, 0.423), rgba(233, 184, 138, 0.693));
+    border: 2px solid black;
+    padding-left: 0px;
+    padding-right: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.logo{
+    width: 150px;
+    cursor: pointer;
+    margin-left: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.menu-icon{
+    width: 40px;
+    cursor: pointer;
+    margin-right: 50px;
+}
+
+nav{
+    text-align: right;
+    flex: 1;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 50px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 16px;
+}
+nav ul li a:hover{
+    color: pink;
+}
+.catbody{
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.335);
+}
+.catbody .mtitle{
+    text-align: center;
+    background-color: rgb(189, 189, 189);
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.row{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+section{
+    background-color: rgb(189, 189, 189);
+    border-radius: 20px 20px 20px 20px;
+}
+section img{
+    display: inline-block;
+    height: 150px;
+    object-fit: cover;
+    margin-top: 20px;
+    margin-left: 30px;
+    border-radius: 20px 20px 20px 20px;
+}
+.dtitle{
+    display: inline-block;
+    vertical-align: top;
+    width: 65%;
+}
+section .dtitle h1{
+    margin-top: 25px;
+    padding-left: 30px;
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+    width: 70%;
+}
+.catbody h3{
+    text-align: center;
+    margin-top: 30px;
+}
+button{
+    width: 120px;
+    border: 0;
+    padding: 12px 10px;
+    outline: none;
+    color: #fff;
+    background: linear-gradient(rgba(121, 121, 255, 0.423), rgba(233, 184, 138, 0.693));
+    border-radius: 6px;
+    cursor: pointer;
+    transition: width 1s;
+    margin: 10px;
+    position: relative;
+    display: table-cell;
+}
+button:hover{
+    width: 140px;
+}
