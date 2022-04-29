@@ -156,9 +156,17 @@ button:hover{
     align-items: center;
 }
 .photorow .model{
-    width: 50%;
+    width: 70%;
+}
+.color-boxs{
     position: absolute;
-    top: -700px;
-    left: 500px;
+    right: 0;
+    top: 0;
+    background: linear-gradient(to right, rgba(121, 121, 255, 0.423), rgba(233, 184, 138, 0.693));
+    border-radius: 20px 0 0 20px;
+    height: 100%;
+    width: 90%;
+    z-index: -1;
+    transform: translateX(150px);
 }
 
