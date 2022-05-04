@@ -1,0 +1,19 @@
+const fname = "Ronjay Acorda";
+const age = 20;
+const pnumber = '09770320178';
+const email = "20214060@s.ubaguio.edu";
+const address = "Diamantina, Cabatuan, Isabela 3315";
+const program = "Computer Science";
+const id = '20214060';
+const ylevel = "1st Year";
+const section = "IAA1";
+
+document.getElementById("name").innerHTML=fname;
+document.getElementById("age").innerHTML=age;
+document.getElementById("pnum").innerHTML=pnumber;
+document.getElementById("email").innerHTML=email;
+document.getElementById("address").innerHTML=address;
+document.getElementById("program").innerHTML=program;
+document.getElementById("id").innerHTML=id;
+document.getElementById("level").innerHTML=ylevel;
+document.getElementById("section").innerHTML=section;
