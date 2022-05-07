@@ -66,8 +66,8 @@ nav ul li a:hover{
     color: pink;
 }
 .checkout{
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
     text-align: center;
     background: rgb(245, 245, 245);
 }
@@ -87,8 +87,11 @@ nav ul li a:hover{
 fieldset{
     padding: 10px;
     border-radius: 10px 10px 10px 10px;
+    border: 2px solid purple;
+    text-align: left;
 }
-fieldset, input, label{
+input, label{
+    border: 1px solid purple;
     text-align: left;
 }
 .checkout .cardinfo img{
@@ -102,10 +105,32 @@ fieldset, input, label{
     width: 75%;
     height: 30px;
 }
+
 .cardinfo form input{
     border-radius: 5px 5px 5px 5px;
     height: 30px;
 }
 legend{
     font-size: 20px;
+}
+button{
+    width: 140px;
+    border: 0;
+    padding: 12px 10px;
+    outline: none;
+    color: #fff;
+    background: linear-gradient(rgba(121, 121, 255, 0.933), rgba(233, 184, 138, 0.917));
+    border-radius: 6px;
+    cursor: pointer;
+    transition: width 1s;
+    margin-top: 80px;
+}
+.footer{
+    padding: 2%;
+    text-align: center;
+    line-height: 25px;
+    font-size: 20px;
+    background: rgb(255, 255, 198);
+    margin-top: 120px;
+    border: 1px solid black;
 }

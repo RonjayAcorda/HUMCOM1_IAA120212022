@@ -22,6 +22,7 @@
 body{
     background: white;
 }
+
 hr{
     border: 1px solid black;
 }
@@ -70,9 +71,14 @@ nav ul li a:hover{
     width: 100%;
     object-fit: cover;
 }
+.container{
+    text-align: center;
+}
 .contactbod{
     margin-left:2%;
     margin-right: 2%;
+    display: block;
+    text-align: center;
 }
 .contactbod .headings{
     margin-right: 5%;
@@ -93,7 +99,7 @@ nav ul li a:hover{
 }
 .contactlist .section{
     display: inline-block;
-    margin: 35px;
+    margin-right: 35px;
 }
 .contactlist .section h2{
     font-size: 30px;
@@ -103,7 +109,22 @@ nav ul li a:hover{
     display: inline-block;
     content: '';
     width: 10px;
-    height: 100px;
+    height: 90px;
     background: rgb(255, 188, 255);
-    position: absolute;
+    display: inline-block;
+    vertical-align: bottom;
+    margin-right: 10px;
+}
+div{
+    display: inline-block;
+    margin-bottom: 30px;
+}
+.footer{
+    padding: 2%;
+    text-align: center;
+    line-height: 25px;
+    font-size: 20px;
+    background: rgb(255, 255, 198);
+    margin-top: 120px;
+    border: 1px solid black;
 }

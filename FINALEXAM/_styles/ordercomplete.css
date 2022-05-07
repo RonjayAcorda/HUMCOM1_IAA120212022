@@ -98,3 +98,12 @@ button{
 button:hover{
     width: 120px;
 }
+.footer{
+    padding: 2%;
+    text-align: center;
+    line-height: 25px;
+    font-size: 20px;
+    background: rgb(255, 255, 198);
+    margin-top: 200px;
+    border: 1px solid black;
+}

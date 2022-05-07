@@ -72,54 +72,45 @@ nav ul li a{
 nav ul li a:hover{
     color: pink;
 }
-.catbody{
-    margin-left: 15%;
-    margin-right: 15%;
-    height: 100%;
-}
-.catbody .mtitle{
+.title{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 120px;
+    width: 900px;
     text-align: center;
-    background-color: rgb(238, 238, 238);
-    padding-top: 1%;
-    padding-bottom: 1%;
-    border-radius: 20px 20px 20px 20px;
-    border: 1px solid yellow;
 }
-
-.row{
-    margin-bottom: 20px;
-    margin-top: 20px;
-}
-
-section{
-    background-color: rgb(238, 238, 238);
-    border-radius: 20px 20px 20px 20px;
-    border: 1px solid yellow;
-}
-section img{
-    display: inline-block;
-    height: 150px;
+.bgpic{
+    height: 300px;
+    width: 100%;
     object-fit: cover;
-    margin-top: 20px;
-    margin-left: 30px;
+    margin-bottom: 40px;
+}
+.catbody{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+.items{
+    display: inline-block;
+    margin: 10px;
+    vertical-align: top;
+    text-align: left;
+    background: rgb(234, 234, 234);
     border-radius: 20px 20px 20px 20px;
 }
-.dtitle{
-    display: inline-block;
-    vertical-align: top;
-    width: 65%;
+.items img{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 20px 20px 20px 20px;
 }
-section .dtitle h1{
-    margin-top: 25px;
-    padding-left: 30px;
-    text-align: left;
-    display: inline-block;
-    vertical-align: top;
-    width: 70%;
-}
-.catbody h3{
-    text-align: center;
-    margin-top: 30px;
+.items p{
+    line-height: 25px;
+    text-align: justify;
 }
 button{
     width: 110px;
@@ -127,14 +118,22 @@ button{
     padding: 12px 10px;
     outline: none;
     color: #fff;
-    background: linear-gradient(rgba(121, 121, 255, 0.423), rgba(233, 184, 138, 0.693));
+    background: linear-gradient(rgba(121, 121, 255, 0.744), rgba(233, 184, 138, 0.849));
     border-radius: 6px;
     cursor: pointer;
     transition: width 1s;
-    margin: 10px;
     position: relative;
     display: table-cell;
 }
 button:hover{
     width: 120px;
+}
+.footer{
+    padding: 2%;
+    text-align: center;
+    line-height: 25px;
+    font-size: 20px;
+    background: rgb(255, 255, 198);
+    margin-top: 120px;
+    border: 1px solid black;
 }
