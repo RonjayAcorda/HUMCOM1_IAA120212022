@@ -94,11 +94,12 @@ nav ul li a:hover{
     text-align: center;
 }
 .items{
+    padding: 8px;
     display: inline-block;
     margin: 35px;
     vertical-align: top;
     text-align: left;
-    background: rgb(234, 234, 234);
+    background: rgb(244, 244, 244);
     border-radius: 20px 20px 20px 20px;
 }
 .items img{
@@ -112,6 +113,7 @@ nav ul li a:hover{
 .items p{
     line-height: 25px;
     text-align: justify;
+    padding: 5px;
 }
 button{
     width: 110px;
@@ -130,7 +132,7 @@ button:hover{
     width: 120px;
 }
 .footer{
-    padding: 2%;
+    padding: 1%;
     text-align: center;
     line-height: 25px;
     font-size: 20px;
