@@ -95,7 +95,7 @@ nav ul li a:hover{
 }
 .items{
     display: inline-block;
-    margin: 10px;
+    margin: 35px;
     vertical-align: top;
     text-align: left;
     background: rgb(234, 234, 234);
@@ -107,6 +107,7 @@ nav ul li a:hover{
     object-fit: cover;
     display: block;
     border-radius: 20px 20px 20px 20px;
+    margin-bottom: 20px;
 }
 .items p{
     line-height: 25px;
